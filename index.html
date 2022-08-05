@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link href="https://vjs.zencdn.net/7.20.1/video-js.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <p>www.website.com</p>
+
+                <div class="social-medias">
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="assets/images/icons/facebook.png" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/images/icons/twitter.png" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/images/icons/instagram.png" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="assets/images/icons/youtube.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-transparent ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img style="height: 21px;" src="assets/images/icons/menu/home.png"
+                                alt=""> HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img style="height: 23px; width:21px;"
+                                src="assets/images/icons/menu/blog.png" alt=""> BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img style="height: 23px; width:17px;"
+                                src="assets/images/icons/menu/location.png" alt=""> ADDRESS</a>
+                    </li>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/other/logo.png" alt="">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="assets/images/icons/menu/menu.png" alt=""> MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="assets/images/icons/menu/menu.png" alt=""> MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="assets/images/icons/menu/contact.png" alt=""> CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="channels">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="content">
+                                        <img src="assets/images/channels/tivibuspor3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content">
+                                        <img src="assets/images/channels/trtspor.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content">
+                                        <img src="assets/images/channels/eurosport.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content">
+                                        <img src="assets/images/channels/beinsports.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content">
+                                        <img src="assets/images/channels/trtspor.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content">
+                                        <img src="assets/images/channels/eurosport.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content">
+                                        <img src="assets/images/channels/beinsports.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-5">
+                    <div class="promo-header">
+                        <div class="content">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+               
+                <div class="col-md-7">
+                    <div class="stream-video">
+                        <video
+                        id="my-video"
+                        class="vjs-matrix video-js"
+                        controls
+                        preload="auto"
+                        width="720"
+                        height="450"
+                        poster="MY_VIDEO_POSTER.jpg"
+                        data-setup="{}"
+                      >
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" /> 
+                        <p class="vjs-no-js">
+                          To view this video please enable JavaScript, and consider upgrading to a
+                          web browser that
+                          <a href="https://videojs.com/html5-video-support/" target="_blank"
+                            >supports HTML5 video</a
+                          >
+                        </p>
+                      </video>
+                    
+                    </div>
+                </div>
+                
+                <div class="col-md-5">
+                    <form action="" class="search-btn">
+                        <input type="text" name="" class="form-control w-100" id="">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://vjs.zencdn.net/7.20.1/video.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".swiper", {
+            slidesPerView: 4,
+            spaceBetween: 45,
+            center: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

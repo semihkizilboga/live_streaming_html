@@ -1,0 +1,12 @@
+@media screen and (max-width: 440px) {
+  .top-bar {
+    display: none;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1275px !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
